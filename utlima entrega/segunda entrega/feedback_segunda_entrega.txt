@@ -1,0 +1,15 @@
+-No siguen la plantilla indicada para la entrega. El máximo son 15 páginas pero apra la entrega final.
+
+EDA 1.7
+
+No olviden indicar cuáles son las variables con las que van a trabajar, es decir el diccionario.
+Mejorar títulos de las tablas, totalmente en español con buena ortografía
+¿A qué se refieren con típico? ¿Tienen algún valor de referencia?
+Cuando van a comparar dispersión es mejor con el coeficiente de variación
+La curtosis, ¿ la están comparando con 0 o con 3 que es la de la distribución normal?
+Títulos en español y lo más claro posibles
+¿La correlación es de PEarson o de Spearman? REvisar interpretaciones.
+Mejorar tablas, ¿Por qué hicieron VIF? esto hace parte de toda la inferencia sobre el modelo de regresión múltiple.
+Prior 2.0
+
+Los hiperparámetros ¿cómo los obtuvieron? Deben explicar si fue a partir de los datos o de un experto o revisando literatura etc.

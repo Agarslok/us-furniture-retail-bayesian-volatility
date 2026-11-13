@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*$py.class
+~$*
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Copia parcial duplicada (contenido ya está en entrega final/ y exposicion final/)
+us-furniture-retail-bayesian-volatility/

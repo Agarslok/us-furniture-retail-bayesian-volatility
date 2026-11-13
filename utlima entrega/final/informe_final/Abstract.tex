@@ -1,0 +1,12 @@
+\begin{abstract}
+\justifying
+Quien decide cuánto inventario mantener casi siempre trabaja con una sola cifra de ventas esperadas, pero lo que más pesa es qué tan lejos puede quedar la demanda real. En este trabajo medimos esa distancia para las ventas de muebles y artículos del hogar en Estados Unidos, con datos mensuales de FRED \citep{fred2026} entre marzo de 1992 y julio de 2026. Usamos un modelo bayesiano de regresión con errores \textit{t} de Student, factores por mes en marzo--junio de 2020 y un parámetro de mayor volatilidad desde julio de 2020, conservando los meses extremos en lugar de eliminarlos. Las ventas de electrónica, construcción y tiendas generales se mueven junto con las de muebles, pero explican poca variación: el modelo no acierta mejor la cifra mensual que la media histórica (RMSE 2.04 frente a 2.02 en 24 meses de prueba). Aun así, el intervalo predictivo del 90\% cubrió el valor observado en 23 de 24 meses y fue más angosto que una alternativa sin factores de pandemia (ancho medio 6.9 frente a 9.5 puntos de crecimiento). Para agosto de 2026 estimamos ventas entre 10\,134 y 11\,050 millones de dólares al 90\%, frente a 10\,537 en julio. Concluimos que el aporte útil es el \textbf{rango de incertidumbre} macro para inventario: la comercializadora lo escala a su volumen (participación o factor histórico frente al sector) para fijar techo, piso e inventario de seguridad en compras, sin sustituir su pronóstico interno por SKU.
+\end{abstract}
+\keywordsSpan{inferencia bayesiana, ventas minoristas, inventario, incertidumbre, volatilidad}
+
+\vspace{0.25cm}
+\noindent\textbf{Abstract (English).}
+\justifying
+Inventory decisions often rely on a single expected sales figure; we quantify how far U.S.\ furniture and home furnishings demand may deviate using a Bayesian \textit{t}-regression with COVID scalers and post-2020 volatility. Point forecasts do not beat the historical mean (RMSE 2.04 vs.\ 2.02 on 24 hold-out months), but 90\% predictive intervals covered 23/24 months with narrower bands than a benchmark without pandemic factors. The deliverable is calibrated uncertainty for sector-level inventory planning (e.g.\ August 2026 sales: USD 10.1--11.0 billion at 90\%).
+
+\keywordsEng{Bayesian inference, retail sales, inventory, uncertainty, volatility}

@@ -1,0 +1,25 @@
+﻿columna,codigo_FRED,rol,transformacion,descripcion
+muebles_hogar,RSFHFS,Y,"nivel (millones USD, desest.)",Ventas minoristas: muebles y artículos del hogar
+electro,RSEAS,X,"nivel (millones USD, desest.)",Ventas minoristas: electrónica y electrodomésticos
+sin_tienda,RSNSR,X,"nivel (millones USD, desest.)",Ventas minoristas: minoristas sin tienda (canal online)
+construccion,RSBMGESD,X,"nivel (millones USD, desest.)",Ventas minoristas: materiales de construcción y jardín
+tiendas_generales,RSGMS,X,"nivel (millones USD, desest.)",Ventas minoristas: tiendas de mercancía general
+gasolineras,RSGASS,X,"nivel (millones USD, desest.)",Ventas minoristas: estaciones de gasolina (proxy costo de uso)
+crec_muebles_hogar,RSFHFS,Y,"crecimiento mensual, 100*diff(log)",Crecimiento de: Ventas minoristas: muebles y artículos del hogar
+crec_electro,RSEAS,X,"crecimiento mensual, 100*diff(log)",Crecimiento de: Ventas minoristas: electrónica y electrodomésticos
+crec_sin_tienda,RSNSR,X,"crecimiento mensual, 100*diff(log)",Crecimiento de: Ventas minoristas: minoristas sin tienda (canal online)
+crec_construccion,RSBMGESD,X,"crecimiento mensual, 100*diff(log)",Crecimiento de: Ventas minoristas: materiales de construcción y jardín
+crec_tiendas_generales,RSGMS,X,"crecimiento mensual, 100*diff(log)",Crecimiento de: Ventas minoristas: tiendas de mercancía general
+crec_gasolineras,RSGASS,X,"crecimiento mensual, 100*diff(log)",Crecimiento de: Ventas minoristas: estaciones de gasolina (proxy costo de uso)
+crec_muebles_hogar_rezago1,RSFHFS,X,crecimiento rezagado 1 mes,Rezago 1 de la variable respuesta
+razon_inv_ventas_rezago1,RETAILIRSA,X,nivel rezagado 1 mes,Razón inventarios/ventas de minoristas (rezago 1 mes)
+crec_ingreso_disponible,DSPI,X,crecimiento mensual,Ingreso personal disponible (nominal)
+nivel_muebles_hogar,RSFHFS,referencia,"nivel (millones USD, desest.)",Ventas minoristas: muebles y artículos del hogar
+nivel_electro,RSEAS,referencia,"nivel (millones USD, desest.)",Ventas minoristas: electrónica y electrodomésticos
+nivel_sin_tienda,RSNSR,referencia,"nivel (millones USD, desest.)",Ventas minoristas: minoristas sin tienda (canal online)
+nivel_construccion,RSBMGESD,referencia,"nivel (millones USD, desest.)",Ventas minoristas: materiales de construcción y jardín
+nivel_tiendas_generales,RSGMS,referencia,"nivel (millones USD, desest.)",Ventas minoristas: tiendas de mercancía general
+nivel_gasolineras,RSGASS,referencia,"nivel (millones USD, desest.)",Ventas minoristas: estaciones de gasolina (proxy costo de uso)
+conjunto,-,partición,texto,Últimos 24 meses = prueba; el resto = entrenamiento
+covid_2020,-,X,dummy 0/1,1 entre 2020-03 y 2020-06
+anio,-,auxiliar,entero,Año de la observación
